@@ -1,0 +1,13 @@
+{
+  "name": "jungle-soundbot-client",
+  "version": "1.0.0",
+  "main": "build/index.html",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel ./src/index.html --open",
+    "build": "parcel build ./src/index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.2"
+  }
+}
