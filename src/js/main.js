@@ -7,7 +7,7 @@ const $button = document.querySelector('.js-submit')
 
 const upload = async () => {
   try {
-    await fetch('https://jungle-soundbot-api.herokuapp.com', {
+    await fetch('https://jungle-soundbot-api.herokuapp.com/upload', {
       method: 'POST',
       body: new FormData($form),
       mode: 'no-cors'
