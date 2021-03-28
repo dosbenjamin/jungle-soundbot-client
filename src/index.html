@@ -4,10 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jungle Soundbot</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./scss/main.scss">
   <script defer src="./js/main.js"></script>
 </head>
 <body>
+  <main>
 
+    <h1 class="title semibold-center text-dark-purple">Jungle Soundbot</h1>
+    <h2 class="subtitle semibold-center text-dark-purple">Ajouter un nouveau son au bot.</h2>
+
+    <form class="upload-form rounded js-form">
+      <input class="input input-small input-form input-placeholder" placeholder="Ton nom/pseudo" name="author" id="author" type="text">
+      <input class="input input-small input-form input-placeholder" placeholder="Nom de la commande" name="command" id="command" type="text">
+
+      <button class="input input-big input-form text-middle-purple" type="button">
+        <p class="center">Drag & drop ou clique ici pour transverser son</p>
+      </button>
+
+      <!-- <input class="input rounded bg-light-purple text-dark-purple" placeholder="" name="sound" id="sound" type="file"> -->
+
+      <button class="input input-small semibold-center bg-dark-purple border-light-purple text-white js-submit" type="button">Ajouter</button>
+    </form>
+
+  </main>
 </body>
 </html>
