@@ -16,14 +16,13 @@
     <h2 class="subtitle semibold-center text-dark-purple">Ajouter un nouveau son au bot.</h2>
 
     <form class="upload-form rounded js-form">
-      <input class="input input-small input-form input-placeholder" placeholder="Ton nom/pseudo" name="author" id="author" type="text">
-      <input class="input input-small input-form input-placeholder" placeholder="Nom de la commande" name="command" id="command" type="text">
+      <input required class="input input-small input-form input-placeholder" placeholder="Ton nom/pseudo" name="author" id="author" type="text">
+      <input required class="input input-small input-form input-placeholder" placeholder="Nom de la commande" name="command" id="command" type="text">
 
-      <button class="input input-big input-form text-middle-purple" type="button">
-        <p class="center">Drag & drop ou clique ici pour transverser son</p>
+      <button class="input input-big input-form text-middle-purple js-upload" type="button">
+        <p class="center">Clique ici pour transverser le son.</p>
       </button>
-
-      <!-- <input class="input rounded bg-light-purple text-dark-purple" placeholder="" name="sound" id="sound" type="file"> -->
+      <input required class="hidden js-file" placeholder="" name="sound" id="sound" type="file">
 
       <button class="input input-small semibold-center bg-dark-purple border-light-purple text-white js-submit" type="button">Ajouter</button>
     </form>

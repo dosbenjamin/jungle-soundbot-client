@@ -47,6 +47,10 @@ input {
   font-family: $main-font;
 }
 
+.hidden {
+  display: none;
+}
+
 .rounded {
   border-radius: $rounded;
 }
